@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <title>Social-Media-Dashboard</title>
+    <!-- Google Font Inter -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/29af172213.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="socials">
+        <h1>Social Media Dashboard</h1>
+        <p>Total Followers: 23,004</p>
+      </div>
+      <hr />
+      <div class="theme-type">
+        <p>Dark Mode</p>
+        <div class="onoffswitch">
+          <input type="checkbox" id="switch" name="theme" /><label for="switch"
+            >Toggle</label
+          >
+        </div>
+      </div>
+      <div class="facebook dash">
+        <i class="fab fa-facebook-square socialFab"></i>
+        <p class="socialUser">@nathanf</p>
+        <p class="number">1987</p>
+        <p class="follow">Followers</p>
+        <i class="fas fa-sort-up arrow up"></i>
+        <p class="today up">12 Today</p>
+      </div>
+      <div class="twitter dash">
+        <i class="fab fa-twitter socialFab"></i>
+        <p class="socialUser">@nathanf</p>
+        <p class="number">1044</p>
+        <p class="follow">Followers</p>
+        <i class="fas fa-sort-up arrow up"></i>
+        <p class="today up">99 Today</p>
+      </div>
+      <div class="instagram dash">
+        <i class="fab fa-instagram socialFab"></i>
+        <p class="socialUser">@realnathanf</p>
+        <p class="number">11k</p>
+        <p class="follow">Followers</p>
+        <i class="fas fa-sort-up arrow up"></i>
+        <p class="today up">1099 Today</p>
+      </div>
+      <div class="youtube dash">
+        <i class="fab fa-youtube socialFab"></i>
+        <p class="socialUser">Nathan F.</p>
+        <p class="number">8239</p>
+        <p class="follow">Subscribers</p>
+        <i class="fas fa-sort-down arrow down"></i>
+        <p class="today down">144 Today</p>
+      </div>
+
+      <h1 class="overview">Overview - Today</h1>
+
+      <div class="facebook-views overview-main">
+        <p class="likes">Page Views</p>
+        <i class="fab fa-facebook-square socialFab"></i>
+        <p class="likesNbr">87</p>
+        <p class="percent up">
+          <span><i class="fas fa-sort-up arrow up"></i></span> 3%
+        </p>
+      </div>
+      <div class="facebook-likes overview-main">
+        <p class="likes">Likes</p>
+        <i class="fab fa-facebook-square socialFab"></i>
+        <p class="likesNbr">52</p>
+        <p class="percent down">
+          <span><i class="fas fa-sort-down arrow down"></i></span> 2%
+        </p>
+      </div>
+      <div class="instagram-likes overview-main">
+        <p class="likes">Likes</p>
+        <i class="fab fa-instagram socialFab"></i>
+        <p class="likesNbr">5462</p>
+        <p class="percent up">
+          <span><i class="fas fa-sort-up arrow up"></i></span> 2257%
+        </p>
+      </div>
+      <div class="instagram-views overview-main">
+        <p class="likes">Profile Views</p>
+        <i class="fab fa-instagram socialFab"></i>
+        <p class="likesNbr">52k</p>
+        <p class="percent up">
+          <span><i class="fas fa-sort-up arrow up"></i></span> 1375%
+        </p>
+      </div>
+      <div class="twitter-tweets overview-main">
+        <p class="likes">Retweets</p>
+        <i class="fab fa-twitter socialFab"></i>
+        <p class="likesNbr">117</p>
+        <p class="percent up">
+          <span><i class="fas fa-sort-up arrow up"></i></span> 303%
+        </p>
+      </div>
+      <div class="twitter-likes overview-main">
+        <p class="likes">Likes</p>
+        <i class="fab fa-twitter socialFab"></i>
+        <p class="likesNbr">507</p>
+        <p class="percent up">
+          <span><i class="fas fa-sort-up arrow up"></i></span> 553%
+        </p>
+      </div>
+      <div class="youtube-likes overview-main">
+        <p class="likes">Likes</p>
+        <i class="fab fa-youtube socialFab"></i>
+        <p class="likesNbr">107</p>
+        <p class="percent down">
+          <span><i class="fas fa-sort-down arrow down"></i></span> 19%
+        </p>
+      </div>
+      <div class="youtube-views overview-main">
+        <p class="likes">Total Views</p>
+        <i class="fab fa-youtube socialFab"></i>
+        <p class="likesNbr">1407</p>
+        <p class="percent down">
+          <span><i class="fas fa-sort-down arrow down"></i></span> 12%
+        </p>
+      </div>
+    </div>
+    <!-- JQuery Link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- JavaScript Link -->
+    <script src="index.js"></script>
+  </body>
+</html>

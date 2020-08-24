@@ -1,0 +1,181 @@
+@media (min-width: 375px) and (max-width: 600px) {
+   
+    .container {
+        padding: 0 24px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    header .container nav ul {
+        display: none;
+    }
+
+    header .container button {
+        display: none;
+    }
+
+   main .hero-section .container {
+       display: flex;
+       flex-direction: column;
+       padding-top: 0;
+   }
+
+  
+   main .hero-section {
+       height: auto;
+       padding: 0;
+       margin: 0;
+   }
+   
+   main .hero-section-background {
+    position: relative;
+    background-image: url('./images/bg-intro-mobile.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    order: 1;    
+    min-height: 17.5rem;
+    
+    background-position: center center;
+    
+    top: 0;
+    right: 0;
+
+   }
+
+   main .hero-section-background::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url('./images/image-mockups.png');
+    background-size: 94%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+
+    top: 0;
+    right: 0;
+
+   }
+
+   main .hero-section .hero-section--text {
+       padding: 0 24px;
+       align-items: center;
+       text-align: center;
+
+       order: 2;
+   }
+
+   main .hero-section .hero-section--text h1 {
+       font-size: 40px;
+   }
+
+   main .hero-section .hero-section--text p {
+       margin-top: 16px;
+       font-size: 15px;
+       line-height: 25px;
+   }
+    
+    .easybank-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .easybank-section .title {
+        font-size: 32px;
+    }
+
+    .easybank-section .easybank-section-title p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .easybank-section .easybank-cards {
+        margin-top: 56px;
+        display: flex;
+        flex-direction: column;
+    } 
+
+    .easybank-section .easybank-cards .easybank-card {
+        margin-bottom: 32px;
+    }
+
+    .easybank-section .easybank-cards h2 {
+        padding-top: 24px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .easybank-section .easybank-cards p {
+        vertical-align: top;
+        text-align: center;
+        padding-top: 16px;
+    }
+
+    .articles-section {
+        flex-direction: column;
+        
+    }
+
+    .articles-section .container {
+        padding: 0 24px;
+    }
+
+    .articles-section .title {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .articles-section .articles-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .articles-section .articles-cards .article-card {
+        margin-bottom: 24px;
+        width: 100%;
+    }
+
+    .article-card img {
+        width: 100%;
+        height: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    footer .container {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer .footer-wrap-start {
+        text-align: center;
+    }
+
+    footer .social-icons a {
+        padding-left: 16px;
+    }
+
+    footer .footer-menu ul {
+        margin-top: 32px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .footer-menu ul li {
+        margin-top: 8px;
+    }
+
+    footer .footer-wrap-end {
+        margin-top: 32px;
+        align-items: center;
+    }
+
+}
+
+@media (min-width: 700px) {
+    main .hero-section .hero-section--text {
+        width: 447px;
+    }
+}
